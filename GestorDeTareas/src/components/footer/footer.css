@@ -1,0 +1,52 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.left,
+.center,
+.right {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    width: 30%; 
+    text-align: center; 
+}
+
+.titleDesc,
+.titleCont,
+.titleRedes {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #ffcc00;
+    font-family: 'Lobster', sans-serif;
+    text-align: center;
+}
+
+.textDesc,
+.conText {
+    line-height: 1.5;
+}
+
+.conText a {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+li, p {
+    font-family: 'Source Code Pro', monospace;
+    text-align: center; 
+}
+
+.left ul {
+    list-style: none;
+    padding: 0;
+}
+
+.left li {
+    margin: 5px 0;
+}
