@@ -50,9 +50,9 @@ display: flex;
 
 
 .title {
-  color: beige; /* Color del texto */
-  font-size: 36px; /* Tamaño de la fuente */
-  text-align: center; /* Alineación al centro */    
+  color: beige;
+  font-size: 36px;
+  text-align: center; 
   font-family: 'Ephesis', cursive;
   justify-content: center;
 }
