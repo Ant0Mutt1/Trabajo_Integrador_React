@@ -5,15 +5,12 @@ import TaskForm from '../componenteTaskForm/TaskForm';
 
 const TaskList = () => {
 
-    const [taskItem, setTaskItem] = useState([
-        { name: 'mi tarea', done: false }
-    ]);
+
 
     return (
         <div>
             <TaskForm />
             <h1>Mis tareas</h1>
-            <TaskItem />
             <table>
                 <thead>
                     <tr>
@@ -21,14 +18,7 @@ const TaskList = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {
-                        taskItem.map(task => (
-                            <tr key={task.name}>
-                                <td> {task.name}</td>
-                            </tr>
-
-                        ))
-                    }
+                    <TaskItem />
                 </tbody>
             </table>
 
