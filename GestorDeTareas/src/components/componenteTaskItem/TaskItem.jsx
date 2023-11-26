@@ -1,24 +1,17 @@
-import React from 'react';
-import { useState } from 'react';
+import React, { useState } from 'react';
 
-const TaskItem = () => {
-
-    const [taskItem, setTaskItem] = useState([
-        { name: 'mi tarea', done: false }
-    ]);
-    return (
-        <div>
-             {
-                        taskItem.map(task => (
-                            <tr key={task.name}>
-                                <td> {task.name}</td>
-                            </tr>
-
-                        ))
-                    }
-            
-        </div>
-    );
-}
+const TaskItem = ({ task, onDelete, onToggleComplete }) => {
+  return (
+    <tr key={task.name} style={{ textDecoration: task.done ? 'line-through' : 'none' }}>
+      <td>{task.name}</td>
+      <td>
+        <button onClick={() => onDelete(task.name)}>Borrar</button>
+      </td>
+      <td>
+        <button onClick={() => onToggleComplete(task.name)}>Completar</button>
+      </td>
+    </tr>
+  );
+};
 
 export default TaskItem;
