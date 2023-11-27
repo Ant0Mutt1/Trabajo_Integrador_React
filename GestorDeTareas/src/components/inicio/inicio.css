@@ -1,4 +1,10 @@
-.conteinerI {
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .conteinerI {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,9 +12,10 @@
     padding: 25px;
     position: relative;
     overflow: hidden;
-}
-
-.conteinerI::before {
+    height: 100%;
+  }
+  
+  .conteinerI::before {
     content: "";
     position: absolute;
     top: 0;
@@ -20,7 +27,7 @@
     background-position: center;
     filter: blur(5px);
     z-index: -1;
-}
+  }
 
 section {
     margin-bottom: 20px;

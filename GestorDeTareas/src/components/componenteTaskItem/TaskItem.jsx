@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import confetti from "canvas-confetti"
+
 import "./taskitem.css"
 
 const TaskItem = ({ task, onDelete, onToggleComplete }) => {
