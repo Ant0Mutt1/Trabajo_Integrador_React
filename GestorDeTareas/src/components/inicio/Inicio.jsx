@@ -35,7 +35,7 @@ const Inicio = () => {
             </section>
             <span className="spanI">
                 La Lista de Tareas es intuitiva y fácil de usar, lo que te permite concentrarte en lo que importa sin perder tiempo en la gestión del trabajo.
-                ¡Empieza hoy a organizar tu vida de una manera más eficiente!
+                ¡Empieza hoy a organizar tu vida de una manera más eficiente! <br></br>
                 Gracias por elegir nuestra Lista de Tareas. ¡Esperamos que te resulte útil y eficaz en tu jornada diaria!
             </span>
 

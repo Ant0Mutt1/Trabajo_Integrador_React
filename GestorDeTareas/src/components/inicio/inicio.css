@@ -42,9 +42,14 @@ section {
     
 }
 
+h2 {
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+}
+
 .titleII {
     font-size: 1.5em;
-    color: #000000; 
+    color: #fff; 
     font-family: 'Pacifico', cursive;
 }
 
@@ -52,6 +57,7 @@ section {
     font-size: 1.2em;
     color: #ccc; 
     font-family: 'Lora', serif;
+    text-align: center;
 }
 
 .oli, .uli {
@@ -67,6 +73,7 @@ section {
     margin-bottom: 10px;
     font-family: 'Lora', serif;
     color: #f1f1f1;
+    text-align: left;
 }
 
 button {
