@@ -39,7 +39,7 @@ const Inicio = () => {
                 Gracias por elegir nuestra Lista de Tareas. ¡Esperamos que te resulte útil y eficaz en tu jornada diaria!
             </span>
 
-            <Link to="/creartarea"> <button>Crea tu tarea</button></Link>
+            <Link to="/listadetareas"> <button>Crea tu tarea</button></Link>
         </div>
     );
 }
