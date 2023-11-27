@@ -6,7 +6,7 @@ export default function TopBar() {
         <div className="navbar">
            
                 <div className="logo">
-                    <img src="https://play-lh.googleusercontent.com/DTzWtkxfnKwFO3ruybY1SKjJQnLYeuK3KmQmwV5OQ3dULr5iXxeEtzBLceultrKTIUTr" alt="Logo" />
+                    <img src="src/assets/GestorTareasIcono.svg" alt="Logo" />
                 </div>
                 <h1 className="title">Tus Tareas</h1>
                 <div className="links">
