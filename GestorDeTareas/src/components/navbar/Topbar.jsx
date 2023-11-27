@@ -11,10 +11,8 @@ export default function TopBar() {
                 <h1 className="title">Tus Tareas</h1>
                 <div className="links">
                     <ul className="list">
-                        <li className="item"><Link to="/">Inicio</Link></li>
-                        <li className="item"><Link to="/creartarea">Crear Tarea</Link></li>
-                        <li className="item"><Link to="/listadetareas">Lista de tareas</Link></li>
-                        <li className="item"><Link to="/contacto"> Contacto</Link></li>
+                        <li className="item"><Link to="/">Inicio</Link></li>                        
+                        <li className="item"><Link to="/listadetareas">Lista de tareas</Link></li>                        
                     </ul>
                 </div>
            
