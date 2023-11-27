@@ -10,7 +10,7 @@ const TaskItem = ({ task, onDelete, onToggleComplete }) => {
         <button className='btn btn-danger'  onClick={() => onDelete(task.name)}>Borrar</button>
         <button
   className='btn btn-success'
-  onClick={() => { onToggleComplete(task.name); confetti();}}>Completar</button>
+  onClick={() => { onToggleComplete(task.name); confetti();}}>Completada</button>
       </td>
     </tr>
   );
