@@ -25,14 +25,14 @@ const TaskList = () => {
   };
 
   return (
-    <div>
+    <div className='container-fluid d-flex  flex-column align-items-center bg-secondary'>
       <TaskForm onCreateTask={createNewTask} />
       <h1>Mis tareas</h1>
-      <table>
+      <table className='table w-50 table-dark table-striped-row '>
         <thead>
           <tr>
-            <th>Tareas</th>
-            <th>Acciones</th>
+            <th className='col-2'>Tareas</th>
+            <th className='col-1'>Acciones</th>
           </tr>
         </thead>
         <tbody>
